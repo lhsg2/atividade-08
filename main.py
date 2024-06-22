@@ -9,4 +9,4 @@ print(f"desconto de INSS:{inss:.2f}")
 sind = bruto*0.05
 print(f"desconto de sindicato:{sind:.2f}")
 liquido = bruto-(ir+inss+sind)
-print(f"salario liquido:{liquido}")
+print(f"salario liquido:{liquido:.2f}")
